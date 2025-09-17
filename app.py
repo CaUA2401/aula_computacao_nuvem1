@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Olá, Nuvem! Esta é minha primeira aplicação web no Render.'
+    return 'Mudança no texto no Render.'
 
 if __name__ == '__main__':
     # A porta é definida dinamicamente pela plataforma de nuvem.
